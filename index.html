@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- icon credit: http://dakirby309.deviantart.com/art/Weather-Dock-Icon-Set-16-Icons-512px-308405330 -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<div id="loading"></div>
+<div class="main-div">
+  <div class="city-css flex-container">
+    <p id="cityName"></p>
+  </div>
+  <div class="wrapper flex-container">
+    <div class="row">
+      <div id='icon' class="icon-css col-xs-6 col-sm-6 col-med-6 flex-container">
+      </div>
+      <div class="temp-div col-xs-6 col-sm-6 col-md-6">
+        <button id='temp' class="temp-style" data-toggle="tooltip" title="Click to convert."></button>
+        <p id='description'></p>
+      </div>
+    </div> <!-- close row -->
+  </div> <!-- close wrapper-->
+    <div class="time-and-date-css">
+      <div>
+      <p id="time-and-date"></p>
+      </div>
+      <div class="credit-div">
+      <p id="credit">Coded by <a href='https://www.freecodecamp.com/ellereeeee' target="_blank">Richard Ellery.</p>
+      </div>
+    </div>
+</div> <!-- close main -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
